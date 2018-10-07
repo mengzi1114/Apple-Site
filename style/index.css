@@ -1,0 +1,81 @@
+header {
+  z-index: 9999;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+  background: #f2f2f2;
+  font-size: 11px;
+  color: #333;
+}
+.nav ul {
+  width: 900px;
+  margin: 0 auto;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  display: block;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-phone {
+  margin-top: 44px;
+}
+.main-phone ul li {
+  width: 100%;
+  height: 580px;
+  margin-bottom: 13px;
+  background: #000;
+  position: relative;
+}
+.main-phone ul li > a {
+  display: block;
+  height: 580px;
+  width: 100%;
+}
+figure{
+    width: 682px;
+    height: 315px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+figure#iphone-xs{
+    background: url(../imgs/ads/iphone_xs_large.jpg) no-repeat;
+    background-size: 682px 315px;
+}
+figure#iphone-xr{
+    background: url(../imgs/ads/iphone_xr_large.jpg) no-repeat;
+    background-size: 682px 315px;
+}
+.ad {
+  z-index: 100;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+  position: absolute;
+  top: 57px;
+  width: 100%;
+}
+
+.link a {
+  z-index: 100;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+}
