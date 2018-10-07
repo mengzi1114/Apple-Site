@@ -17,6 +17,7 @@ footer {
   background: #f2f2f2;
   font-size: 11px;
   color: #333;
+  clear: both;
 }
 .nav ul {
   width: 900px;
@@ -47,21 +48,21 @@ footer {
   height: 580px;
   width: 100%;
 }
-figure{
-    width: 682px;
-    height: 315px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translatex(-50%);
+figure.iphone {
+  width: 972px;
+  height: 337px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
 }
-figure#iphone-xs{
-    background: url(../imgs/ads/iphone_xs_large.jpg) no-repeat;
-    background-size: 682px 315px;
+figure#iphone-xs {
+  background: url(../imgs/ads/iphone_xs_large.jpg) no-repeat;
+  background-size: 972px 337px;
 }
-figure#iphone-xr{
-    background: url(../imgs/ads/iphone_xr_large.jpg) no-repeat;
-    background-size: 682px 315px;
+figure#iphone-xr {
+  background: url(../imgs/ads/iphone_xr_large.jpg) no-repeat;
+  background-size: 972px 337px;
 }
 .ad {
   z-index: 100;
@@ -72,10 +73,94 @@ figure#iphone-xr{
   top: 57px;
   width: 100%;
 }
-
+.ad h2 {
+  height: 34px;
+  line-height: 34px;
+  font-size: 34px;
+}
+.ad h3 {
+  height: 31px;
+  line-height: 31px;
+  font-size: 23px;
+  margin-top: 5px;
+}
+.link {
+  margin-top: 5px;
+  height: 29px;
+  line-height: 29px;
+}
 .link a {
   z-index: 100;
   text-align: center;
   background: transparent;
   color: #fff;
+  font-size: 20px;
+}
+a.more {
+  color: #6bf;
+  margin-left: 8px;
+}
+a.more:hover {
+  text-decoration: underline;
+}
+.main-production {
+  width: 100%;
+}
+.watch {
+  width: 100%;
+  height: 580px;
+  position: relative;
+}
+.watch > a {
+  display: block;
+  width: 100%;
+  height: 580px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pro {
+  width: 50%;
+  height: 580px;
+  float: left;
+  margin-bottom: 12px;
+  position: relative;
+}
+.pro-wrap {
+  height: 100%;
+  background: blue;
+}
+
+.pro:nth-of-type(odd) > .pro-wrap {
+  margin-left: 12px;
+  margin-right: 6px;
+}
+.pro:nth-of-type(even) > .pro-wrap {
+  margin-left: 6px;
+  margin-right: 12px;
+}
+.ad-watch {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%) translatey(-75%);
+}
+.ad-watch h2 {
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+.ad-watch h2 p {
+  color: red;
+  font-size: 20px;
+}
+.ad-watch h3 {
+  font-size: 25px;
+}
+#pro-watch-img {
+  width: 340px;
+  height: 580px;
+  background: url(../imgs/ads/apple_watch_series_4_large.jpg);
+  background-size: 340px 580px;
 }
