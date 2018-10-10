@@ -48,3 +48,9 @@ body {
     url("../fonts/sf-pro-text_semibold.woff2"),
     url("../fonts/SFProIcons_regular.woff");
 }
+
+.clear-float::after {
+  display: block;
+  content: "";
+  clear: both;
+}

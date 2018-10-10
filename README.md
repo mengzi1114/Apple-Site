@@ -1,5 +1,8 @@
 My Learning
-1.odd,even奇偶选择器时，尽量在同一个父容器下面
+1.odd,even奇偶选择器时，尽量在同一个父容器下面；
+2.z-index通常与position：absolute同时使用；
+3.css中标签选择器不能很好的区别不同位置相同标签的样式，应尽量使用class或者id名查找；
+
 
 
 PLAN
@@ -13,3 +16,4 @@ TODO LIST
 1. site icon/farvirate.ico;
 2. fontfamily  
 3.what is flex layout
+4.How to use the z-index property correctly？
